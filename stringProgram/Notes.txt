@@ -1,0 +1,79 @@
+String is a final predefined class.
+String objects are used to store sequence of character.
+
+Since String is a final class we will not be able to extend any class to this 
+string class
+
+String literals create objects in SCP(String Constant Pool). It provides 
+memory management.
+
+When we store data in string object, each character is given in index starting 
+from 0 to length()-1.
+
+String is a class so it has many methods in it. Most commonly used methods are:-
+
+1) length() - this method will give you the total number of character in String
+
+2) s.charAt(index) - this method will get the character present at the given index
+
+3) .toLowerCase() - this method returns a new String object in which all letters
+					are in small.
+					
+4) .toUpperCase() - this method returns a new String object in which all letters
+					are in capital.
+					
+5) .contains() - this method returns true if it finds the given word in our String
+				 otherwise it return false.
+				 
+6) .replace(oldCharacter, newCharacter) - this method returns a new String in
+										  which all old character is replaced
+										  by new character. 				 
+				 
+7) .replace("String1", "String2") - this method returns a new String in which all
+									old String1 is replaced by new String2.			 
+				 
+8) .replaceFirst("String1", "String2") - this method returns a new String in where
+ 										 only the first occurance of the word
+ 										 String1 is replaced by new String2.					 
+				 
+9) .indexOf('character') - this method returns the index of the first occurance
+						   of the given character
+
+10) .lastIndexOf('character') - this method returns the index of the last 
+								occurance of the given character
+
+11) .indexOf("String") - this method returns the index of the first occurance
+						of the given String
+
+
+12) .indexOf('character', startIndex) - this method returns the index of the first 
+									  	occurance of the given character starting 
+									 	the search from given startIndex
+
+13) .indexOf("String", startIndex) - this method returns the index of the first 
+									 occurance of the given string starting the
+									 search from given startIndex
+
+14) .substring() - this method returns a new String in which there are all 
+				   characters of the original string starting from the given index
+
+15) .substring(startIndex, offSetIndex) - this method returns a new String in 
+										  which there are all characters of the 
+										  original string starting from the given 
+										  startIndex upto the offSetIndex.
+				   						  Note: We will not see the character 
+				   						  present in the offSetIndex.
+				   						  
+16) .startsWith(word) - will give true if the string starts with the given word
+
+17) .endsWith(word) - will give true if the string ends with the given word
+
+18) concat() - will create a new object with all the new character to original
+			   value
+
+
+String is immutable; its original object cannot be changed, if we call any methods
+to change the value then a new object is created.		
+				 
+				 
+				 
